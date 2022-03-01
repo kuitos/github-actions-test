@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Send DingGroup1 Anouncement Notify
         uses: zcong1993/actions-ding@master
-        if: github.event.discussion.category.name == 'Announcement'
+        if: github.event.discussion.category.name == 'Announcements'
         with:
           dingToken: ${{ secrets.DING_GROUP_TOKEN }}
           secret: ${{ secrets.DING_GROUP_SIGN }}
