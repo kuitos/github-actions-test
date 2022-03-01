@@ -19,6 +19,6 @@ jobs:
               "msgtype": "markdown",
               "markdown": {
                   "title": "Qiankun News",
-                  "text": "# qiankun 新闻播报📢 [${{github.event.discussion.title}}](${{github.event.discussion.html_url}}) \n${{github.event.discussion.body}}",
+                  "text": "# qiankun 新闻播报📢\n[${{github.event.discussion.title}}](${{github.event.discussion.html_url}}) \n${{github.event.discussion.body}}",
               }
             }
