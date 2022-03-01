@@ -2,7 +2,7 @@ name: Annoucement Notify
 
 on:
   discussion:
-    types: [opened]
+    types: [created]
 
 jobs:
   notify:
